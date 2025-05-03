@@ -1,10 +1,15 @@
-# STM32 W5500 DNS Example
+# STM32 W5500 TCP Echo Server Example
 
-In this example we will use the DNS system to resolve the IP address of
-a host name (domain name like example.com) and then print it on to the
-serial terminal. Thats it.
+In this example we will create a basic TCP server application that listens on a specific port (say 5000)
+We can use PC based TCP clients such as Hercules TCP Terminal application to connect to our embedded
+host (STM32+W5500) and send text commands to it. Since this is a very basic application example, it will
+echo back those command strings to client (Hercules) where they will be displayed on PC screen. Due to
+this behaviour this is called an 'echo server'.
 
 ![W5500 DNS Example](https://extremeelectronics.co.in/github/w5500/output_w5500_dns.png)
+
+##Video
+[![W5500 TCP Server Video Tutorial](https://img.youtube.com/vi/Ka6YYBDQAN8/0.jpg)](https://www.youtube.com/watch?v=Ka6YYBDQAN8)
 
 ## Hardware Details
 
